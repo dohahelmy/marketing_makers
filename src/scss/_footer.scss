@@ -1,0 +1,39 @@
+.footer {
+    
+}
+
+.copyrights {
+    margin-top: 1rem;
+    background-color: color(grey);
+    color: color(accent-dark);
+    padding: 3rem 0;
+
+    &-content {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+
+        @media only screen and (min-width: $tablets) {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        p {
+            margin-top: 2rem;
+
+            @media only screen and (min-width: $tablets) {
+                margin-top: 0;
+            }
+        }
+    }
+
+    a {
+        width: 17rem;
+        margin-inline-end: 2rem;
+
+        &:last-child {
+            margin-inline-end: 0;
+        }
+    }
+}
