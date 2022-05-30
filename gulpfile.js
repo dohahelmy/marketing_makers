@@ -61,74 +61,60 @@ async function includeHTML() {
 				basepath: "@file",
 				context: {
 					nav: [{
-							text: 'التسجيل',
-							link: 'index.html'
+							text: 'من نحن',
+							link: 'about'
 						},
 						{
-							text: 'تمارين',
-							link: 'exercises.html'
+							text: 'خدماتنا',
+							link: 'services'
 						},
 						{
-							text: 'تغذية',
-							link: 'nutrition.html'
+							text: 'تواصل معنا',
+							link: 'contact'
 						}
 					],
-					exercises: [{
-							order: 'الأول',
-							title: 'ركض',
-							min: '30',
-							img: '4'
+					services: [{
+							img: 'design',
+							title: 'التصميم الإبداعي',
 						},
 						{
-							order: 'الثاني',
-							title: 'تمارين سويدي',
-							min: '20',
-							img: '6'
+							img: 'influencer',
+							title: 'المؤثرين',
 						},
 						{
-							order: 'الثالث',
-							title: 'أجهزة أيروبيك',
-							min: '45',
-							img: '7'
+							img: 'marketing',
+							title: 'التسويق الرقمي والحملات التسويقية',
 						},
 						{
-							order: 'الرابع',
-							title: 'المشي السريع',
-							min: '15',
-							img: '5'
+							img: 'writing',
+							title: 'كتابة المحتوى',
+						},
+						{
+							img: 'code',
+							title: 'البرمجة',
+						},
+						{
+							img: 'sms',
+							title: 'الرسائل النصية',
 						}
 					],
-					nutrition: [{
-							type: 'الفطور',
-							start: '8 صباحا',
-							end: '10 صباحا'
+					social: [{
+							icon: 'linkedin',
+							link: 'www.linkedin.com'
 						},
 						{
-							type: 'سناك',
-							start: '11 صباحا',
-							end: '1 مساءا'
+							icon: 'twitter',
+							link: 'www.twitter.com'
 						},
 						{
-							type: 'غذاء',
-							start: '2 مساءا',
-							end: '3 مساءا'
+							icon: 'instagram',
+							link: 'www.instagram.com'
 						},
 						{
-							type: 'سناك',
-							start: '4 مساءا',
-							end: '5 مساءا'
-						},
-						{
-							type: 'عشاء',
-							start: '7 مساءا',
-							end: '8 مساءا'
-						},
-						{
-							type: 'سناك',
-							start: '9 مساءا',
-							end: '10 مساءا'
+							icon: 'facebook',
+							link: 'www.facebook.com'
 						}
-					]
+					],
 				},
 			})
 		)

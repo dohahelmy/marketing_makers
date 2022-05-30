@@ -6,11 +6,11 @@
 	margin: 0 auto;
 
 	@media (min-width: $tablets) {
-		max-width: 75rem;
+		max-width: 110rem;
 	}
 
 	@media (min-width: $desktops) {
-		max-width: 96rem;
+		max-width: 137rem;
 	}
 }
 
@@ -149,6 +149,10 @@
 }
 
 .items {
+	&-baseline {
+		align-items: baseline;
+	}
+
 	&-center {
 		align-items: center;
 	}
@@ -186,6 +190,11 @@
 		&-60 {
 			width: 6rem;
 			height: 6rem;
+		}
+
+		&-75 {
+			width: 7.5rem;
+			height: 7.5rem;
 		}
 
 		&-80 {

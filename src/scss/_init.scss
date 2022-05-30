@@ -7,16 +7,20 @@
 	box-sizing: border-box;
 	font-family: 'DinNextLt', Helvetica, sans-serif, serif, arial;
 	font-weight: 300;
-	transition: all .25s linear;
+	transition: all 0.35s linear;
 }
 
 html {
-	font-size: 62.5%;
+	font-size: 40%;
 	direction: rtl;
 	scroll-behavior: smooth;
-
-	@media (max-width: 37.5em) {
-		font-size: 44%;
+	
+	@media (min-width: 48.8em) {
+		font-size: 50%;
+	}
+	
+	@media (min-width: 64em) {
+		font-size: 62.5%;
 	}
 }
 
