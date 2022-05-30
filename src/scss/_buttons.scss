@@ -30,10 +30,29 @@
     &.active,
     &:hover,
     &:focus {
+        border-color: color(white);
         color: color(accent-dark);
 
         &::after {
             width: 100%;
         }
+    }
+}
+
+.social-btn {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 100%;
+    margin-inline-end: 1.4rem;
+    transition-duration: 0.75s;
+
+    &:last-child {
+        margin-inline-end: 0;
+    }
+
+    &:hover,
+    &:focus {
+        cursor: pointer;
+        transform: rotate(360deg);
     }
 }

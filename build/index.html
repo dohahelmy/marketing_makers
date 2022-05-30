@@ -23,13 +23,13 @@
 			<section class="navbar">
 				<div class="navbar-container">
 					<nav class="navbar-nav flex items-center">
-						 <a href="about" class="nav-link accent-btn">
+						 <a href="#about" data-scroll="about" class="nav-link accent-btn">
 							من نحن
 							</a>
-							 <a href="services" class="nav-link accent-btn">
+							 <a href="#services" data-scroll="services" class="nav-link accent-btn">
 							خدماتنا
 							</a>
-							 <a href="contact" class="nav-link accent-btn">
+							 <a href="#contact" data-scroll="contact" class="nav-link accent-btn">
 							تواصل معنا
 							</a>
 							
@@ -150,14 +150,89 @@
   <!-- end section loading -->
 
   <footer>
-  <div class="footer">
-    <div class="container">
-      <div class="sec-block">
-
+  <section class="section" id="contact">
+    <!-- Contact title -->
+    <div class="footer">
+      <div class="container text-center">
+        <h2 class="section-title">تواصل معنا</h2>
+        <h6 class="contact-subtitle">قم بملئ الطلب وسنقوم بالرد عليك بأسرع وقت ممكن</h6>
       </div>
     </div>
-  </div>
-  <div class="copyrights">
+    <!-- Contect Content -->
+    <div class="contact">
+      <div class="container">
+        <figure class="contact-figure">
+          <svg class="svg svg-resize-55">
+            <use xlink:href=./assets/img/sprite.svg#message> <title>Message</title>
+          </svg>
+        </figure>
+        <div class="contact-wrapper">
+          <!-- Social -->
+          <div class="contact-item">
+            <div class="contact-item__title">تـــابعــــنــــــا</div>
+            <div class="contact-item__body">
+              <div class="flex items-center justify-center">
+                 
+                  <a href="www.linkedin.com" target="_blank" class="social-btn">
+                    <svg class="svg svg-resize-55">
+                      <use xlink:href=./assets/img/sprite.svg#linkedin>
+                        <title>linkedin</title>
+                    </svg>
+                  </a>
+                 
+                  <a href="www.twitter.com" target="_blank" class="social-btn">
+                    <svg class="svg svg-resize-55">
+                      <use xlink:href=./assets/img/sprite.svg#twitter>
+                        <title>twitter</title>
+                    </svg>
+                  </a>
+                 
+                  <a href="www.instagram.com" target="_blank" class="social-btn">
+                    <svg class="svg svg-resize-55">
+                      <use xlink:href=./assets/img/sprite.svg#instagram>
+                        <title>instagram</title>
+                    </svg>
+                  </a>
+                 
+                  <a href="www.facebook.com" target="_blank" class="social-btn">
+                    <svg class="svg svg-resize-55">
+                      <use xlink:href=./assets/img/sprite.svg#facebook>
+                        <title>facebook</title>
+                    </svg>
+                  </a>
+                
+              </div>
+            </div>
+          </div>
+          <!-- Phone -->
+          <div class="contact-item">
+            <div class="contact-item__title">اتـصـــل بــنـــا</div>
+            <div class="contact-item__body">
+              :اتصل بنا على
+              <br>
+              <div class="dir-ltr">+966 58 333 1908</div>
+            </div>
+          </div>
+          <!-- Email -->
+          <div class="contact-item">
+            <div class="contact-item__title">البريد الالكتروني</div>
+            <div class="contact-item__body">
+              :قم بمراسلتنا على
+              <br>
+              <div class="dir-ltr">Info@pingcode.co</div>
+            </div>
+          </div>
+          <!-- Address -->
+          <div class="contact-item">
+            <div class="contact-item__title">العنوان</div>
+            <div class="contact-item__body">المملكة العربية السعودية
+              الرياض</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="copyrights">
     <div class="container">
       <div class="copyrights-content">
         <p class="dir-ltr">© MARKETING MAKERS Co.</p>
@@ -166,7 +241,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </footer>
 
 

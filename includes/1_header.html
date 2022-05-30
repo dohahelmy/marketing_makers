@@ -22,7 +22,7 @@
 			<section class="navbar">
 				<div class="navbar-container">
 					<nav class="navbar-nav flex items-center">
-						@@for(var i = 0; i < nav.length; i++) { <a href="`+ nav[i].link +`" class="nav-link accent-btn">
+						@@for(var i = 0; i < nav.length; i++) { <a href="#`+ nav[i].link +`" data-scroll="`+ nav[i].link +`" class="nav-link accent-btn">
 							`+ nav[i].text +`
 							</a>
 							}
