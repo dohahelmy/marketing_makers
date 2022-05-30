@@ -363,12 +363,34 @@ header {
   background-color: var(--color-accent-light);
   border-bottom-left-radius: 5.4rem;
   border-bottom-right-radius: 5.4rem;
+}
+.navbar .container {
+  height: 100%;
   display: grid;
 }
 @media (min-width: 37.5em) {
   .navbar {
     padding: 0 3.5rem;
   }
+}
+.navbar.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  height: auto;
+  padding: 2rem 0;
+  border-radius: 0;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.07);
+}
+.navbar.fixed .navbar-container {
+  margin-bottom: 0;
+}
+.navbar.fixed .logo .svg {
+  margin-bottom: 0;
+  width: 15rem;
+  height: 5rem;
 }
 .navbar-container {
   display: flex;

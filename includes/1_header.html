@@ -16,22 +16,24 @@
 
 <body>
 	<!-- start header-->
-	<header>
+	<header id="home">
 		<!-- Navbar -->
 		<div class="container">
 			<section class="navbar">
-				<div class="navbar-container">
-					<nav class="navbar-nav flex items-center">
-						@@for(var i = 0; i < nav.length; i++) { <a href="#`+ nav[i].link +`" data-scroll="`+ nav[i].link +`" class="nav-link accent-btn">
-							`+ nav[i].text +`
-							</a>
-							}
-					</nav>
-					<a href="@@webRoot/" class="logo">
-						<svg class="svg">
-							<use xlink:href=@@webRoot/assets/img/sprite.svg#white_logo> <title>Logo</title>
-						</svg>
-					</a>
+				<div class="container">
+					<div class="navbar-container">
+						<nav class="navbar-nav flex items-center">
+							@@for(var i = 0; i < nav.length; i++) { <a href="#`+ nav[i].link +`" data-scroll="`+ nav[i].link +`" class="nav-link accent-btn">
+								`+ nav[i].text +`
+								</a>
+								}
+						</nav>
+						<a href="@@webRoot/" class="logo">
+							<svg class="svg">
+								<use xlink:href=@@webRoot/assets/img/sprite.svg#white_logo> <title>Logo</title>
+							</svg>
+						</a>
+					</div>
 				</div>
 			</section>
 		</div>
@@ -43,4 +45,4 @@
 		</div>
 	</header>
 
-	<main role="main" id="@@page-id">
+	<main role="main">
